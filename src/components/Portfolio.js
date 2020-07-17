@@ -1,14 +1,9 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
-import Coffee from "../assets/images/portfolio/coffee.jpg";
-import Console from "../assets/images/portfolio/console.jpg";
-import Judah from "../assets/images/portfolio/judah.jpg";
-import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
-import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
-import Girl from "../assets/images/portfolio/girl.jpg";
-import Origami from "../assets/images/portfolio/origami.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
+import trees from "../assets/images/portfolio/trees.jpg";
+
+import wind from "../assets/images/portfolio/wind.jpg";
 
 import CoffeeModal from "../assets/images/portfolio/modals/m-coffee.jpg";
 import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
@@ -32,11 +27,11 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={Coffee} />
+                <img alt="" src={trees} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
+                    <h5>MERN</h5>
+                    <p>Web Development</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -46,7 +41,7 @@ const Portfolio = () => (
             </div>
           </div>
 
-          <div className="columns portfolio-item">
+          {/* <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
@@ -146,15 +141,15 @@ const Portfolio = () => (
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-08" title="">
-                <img alt="" src={Retrocam} />
+                <img alt="" src={wind} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Retrocam</h5>
+                    <h5>PHP/MySQL</h5>
                     <p>Web Development</p>
                   </div>
                 </div>
@@ -168,61 +163,48 @@ const Portfolio = () => (
       </div>
 
       <div id="modal-01" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={CoffeeModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={trees} alt="" />
 
         <div className="description-box">
-          <h4>Coffee Cup</h4>
-          <p>
-            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-            sem nibh id elit.
-          </p>
+          <h4>Mwenbwa</h4>
+          <p>Idle Game in Liège based around having the most trees.</p>
           <span className="categories">
-            <FaTag /> Branding, Webdesign
+            <FaTag /> Web Development
           </span>
         </div>
 
         <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="http://mwenbwa.herokuapp.com" target="blank_">
+            Details
+          </a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
 
       <div id="modal-02" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={ConsoleModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={wind} alt="" />
 
         <div className="description-box">
           <h4>Console</h4>
-          <p>
-            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-            sem nibh id elit.
-          </p>
+          <p>A simple forum in PHP/MySQL.</p>
           <span className="categories">
-            <FaTag />Branding, Web Development
+            <FaTag />
+            Branding, Web Development
           </span>
         </div>
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
 
       <div id="modal-03" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={JudahModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={JudahModal} alt="" />
 
         <div className="description-box">
           <h4>Judah</h4>
@@ -232,22 +214,21 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Branding
+            <FaTag />
+            Branding
           </span>
         </div>
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
 
       <div id="modal-04" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={IntoTheLightModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={IntoTheLightModal} alt="" />
 
         <div className="description-box">
           <h4>Into the Light</h4>
@@ -257,22 +238,21 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Photography
+            <FaTag />
+            Photography
           </span>
         </div>
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
 
       <div id="modal-05" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={FarmerboyModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={FarmerboyModal} alt="" />
 
         <div className="description-box">
           <h4>Farmer Boy</h4>
@@ -282,22 +262,21 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Branding, Webdesign
+            <FaTag />
+            Branding, Webdesign
           </span>
         </div>
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
 
       <div id="modal-06" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={GirlModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={GirlModal} alt="" />
 
         <div className="description-box">
           <h4>Girl</h4>
@@ -307,22 +286,21 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Photography
+            <FaTag />
+            Photography
           </span>
         </div>
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
 
       <div id="modal-07" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={OrigamiModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={OrigamiModal} alt="" />
 
         <div className="description-box">
           <h4>Origami</h4>
@@ -332,38 +310,40 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Branding, Illustration
+            <FaTag />
+            Branding, Illustration
           </span>
         </div>
 
         <div className="link-box">
           <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
 
       <div id="modal-08" className="popup-modal mfp-hide">
-        <img
-          className="scale-with-grid"
-          src={RetrocamModal}
-          alt=""
-        />
+        <img className="scale-with-grid" src={wind} alt="" />
 
         <div className="description-box">
-          <h4>Retrocam</h4>
+          <h4>A simple forum in PHP/MySQL.</h4>
           <p>
             Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
             lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
             sem nibh id elit.
           </p>
           <span className="categories">
-            <i className="fa fa-tag" />Webdesign, Photography
+            <i className="fa fa-tag" />
+            Web Development
           </span>
         </div>
 
         <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
-          <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+          <a href="https://ltd-bcbb.herokuapp.com/">Details</a>
+          <a href="#portfolio" className="popup-modal-dismiss">
+            Close
+          </a>
         </div>
       </div>
     </div>
