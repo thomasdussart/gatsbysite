@@ -12,8 +12,9 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          Tech enthusiast since the age of 5. In search of an intership from 14
-          September 2020 for 3 months.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          venenatis condimentum turpis, non iaculis augue accumsan et. Fusce ut
+          ornare dui.
         </p>
         <div className="row">
           <div className="columns contact-details">
