@@ -4,7 +4,7 @@ module.exports = {
     author: "Thomas Dussart",
     description: "Thomas Dussart CV based on ceevee",
   },
-  pathPrefix: "/",
+  pathPrefix: "/thomasdussart.github.io",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
