@@ -4,7 +4,7 @@ module.exports = {
     author: "Thomas Dussart",
     description: "A Gatsby.js Site based on Ceevee by Styleshout",
   },
-  pathPrefix: "/thomasdussart.github.io",
+  pathPrefix: "/gatsbysite",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
