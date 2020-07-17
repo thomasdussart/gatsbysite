@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-ceevee",
-  "description": "Gatsby Starter - CeeVee ",
+  "name": "gatsbySite",
+  "description": "Gatsby Site",
   "version": "1.0.1",
-  "author": "Aman Mittal <amandeepmittal@live.com>",
+  "author": "Thomas Dussart <thomas.dussart@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
