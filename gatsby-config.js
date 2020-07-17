@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: "Thomas Dussart",
     author: "Thomas Dussart",
-    description: "Thomas Dussart CV based on ceevee",
+    description: "A Gatsby.js Site based on Ceevee by Styleshout",
   },
-  pathPrefix: "/GatsbySite",
+  pathPrefix: "/thomasdussart.github.io",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
